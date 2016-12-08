@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+<html>
+      <body>
+            <table border="1">
+                  <tr style="background: black;">
+				 			  
+                        <th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Codigo</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Finalidade</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Tipo</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Dimensao</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Area</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Construcao</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Endereco</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Contato</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Descricao</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Quartos</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Banheiros</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Garagens</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Suites</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Salas</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Escritorio</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Piscina</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Banheira</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Armario</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Churrasqueira</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Quintal</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Valor</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Financiamento</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">IPTU</th>
+						<th style="color: white; font-style: italic; font-family: Courier, monospace;" align="center">Condominio</th>
+                  </tr>
+                  <xsl:for-each select="Raiz/Item">
+                        <tr>
+                             <td align="center">
+                                   <xsl:value-of select="Codigo"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Finalidade"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Tipo"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Dimensao"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Area"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Construcao"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Endereco"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Contato"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Descricao"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Quartos"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Banheiros"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Garagens"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Suites"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Salas"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Escritorio"/>
+                             </td>
+							 <td align="center">
+                                   <xsl:value-of select="Piscina"/>
+                             </td>
+							 <td align="center">
+                                   <xsl:value-of select="Banheira"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Armario"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Churrasqueira"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Quintal"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Valor"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Financiamento"/>
+                             </td>
+							 <td align="center">
+                                   <xsl:value-of select="IPTU"/>
+                             </td>
+                             <td align="center">
+                                   <xsl:value-of select="Condominio"/>
+                             </td>
+                        </tr>
+                  </xsl:for-each>
+            </table>                       
+      </body>
+</html>
+</xsl:template>
+</xsl:stylesheet>

@@ -1,0 +1,38 @@
+Codigo: ACD3415
+Finalidade: venda
+Tipo: casa
+Dimensao: 11x25
+Area: 300
+Construcao: 112
+Endereco: Rua Aquidabam, 504, Centro, São Carlos
+Contato: Maria Gabriela, tel. (16) 3415-3322
+Descricao: Casa em ótima localização.
+Quartos: 2
+Banheiros: 2
+Garagens: 2
+Suites: 1
+Salas: 1
+Escritorio: 0
+Quintal: sim
+Valor: 450.000,00
+Financiamento: não
+Codigo: BCD1243
+Finalidade: venda
+Tipo: terreno
+Dimensao: 10x25
+Area: 250
+Endereco: Rua José Luis Caron, 45, Parque Fehr, São Carlos
+Contato: João Damião da Silva, tel. (16) 3322-5453
+Descricao: Terreno plano em excelentes condições.
+Financiamento: sim
+Valor: 158.000,00
+Codigo: BCD1543
+Finalidade: aluguel
+Tipo: chácara
+Dimensao: 1200x258
+Area: 566656
+Endereco: Rua José Luis Caron, 45, Parque Fehr, São Carlos
+Contato: João Damião da Silva, tel. (16) 3322-5453
+Descricao: Terreno plano em excelentes condições.
+Financiamento: sim
+Valor: 80.000,00

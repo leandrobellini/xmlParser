@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<Raiz>
+  <Item>
+    <Codigo>ACD3415</Codigo>
+    <Finalidade>venda</Finalidade>
+    <Tipo>casa</Tipo>
+    <Dimensao>11x25</Dimensao>
+    <Area>300</Area>
+    <Construcao>112</Construcao>
+    <Endereco>Rua Aquidabam, 504, Centro, São Carlos</Endereco>
+    <Contato>Maria Gabriela, tel. (16) 3415-3322</Contato>
+    <Descricao>Casa em ótima localização.</Descricao>
+    <Quartos>2</Quartos>
+    <Banheiros>2</Banheiros>
+    <Garagens>2</Garagens>
+    <Suites>1</Suites>
+    <Salas>1</Salas>
+    <Escritorio>0</Escritorio>
+    <Quintal>sim</Quintal>
+    <Valor>450.000,00</Valor>
+    <Financiamento>não</Financiamento>
+  </Item>
+  <Item>
+    <Codigo>BCD1243</Codigo>
+    <Finalidade>venda</Finalidade>
+    <Tipo>terreno</Tipo>
+    <Dimensao>10x25</Dimensao>
+    <Area>250</Area>
+    <Endereco>Rua José Luis Caron, 45, Parque Fehr, São Carlos</Endereco>
+    <Contato>João Damião da Silva, tel. (16) 3322-5453</Contato>
+    <Descricao>Terreno plano em excelentes condições.</Descricao>
+    <Financiamento>sim</Financiamento>
+    <Valor>158.000,00</Valor>
+  </Item>
+  <Item>
+    <Codigo>BCD1543</Codigo>
+    <Finalidade>aluguel</Finalidade>
+    <Tipo>chácara</Tipo>
+    <Dimensao>1200x258</Dimensao>
+    <Area>566656</Area>
+    <Endereco>Rua José Luis Caron, 45, Parque Fehr, São Carlos</Endereco>
+    <Contato>João Damião da Silva, tel. (16) 3322-5453</Contato>
+    <Descricao>Terreno plano em excelentes condições.</Descricao>
+    <Financiamento>sim</Financiamento>
+    <Valor>80.000,00</Valor>
+  </Item>
+</Raiz>
