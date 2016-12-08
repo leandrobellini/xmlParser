@@ -2,6 +2,11 @@ SCC-0661 Multimídia e Hipermídia
 Trabalho 2: Modelagem de um sistema de Imobiliária
 
 -----------------------------------------
+O objetivo deste trabalho é realizar toda modelagem do sistema utilizando linguagens declarativas:
+XML, XML Schema, XSLT e RSS.
+Parser com uso de Python. Detalhes do projeto no arquivo pdf
+
+-----------------------------------------
 Alunos:
 Leandro Bellini
 Pedro Fini
