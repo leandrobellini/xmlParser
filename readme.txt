@@ -3,9 +3,9 @@ Trabalho 2: Modelagem de um sistema de Imobiliária
 
 -----------------------------------------
 Alunos:
-Leandro Luis Bellini - 7572908
-Pedro Henrique Fini - 7704985
-Thales Lopes Correia da Silva - 7546742
+Leandro Bellini
+Pedro Fini
+Thales Lopes
 -----------------------------------------
 
 
